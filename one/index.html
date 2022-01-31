@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="nav">
+    
+    
+        <li><img src="download.png" height ='40px'width='100px' alt="Workplace" usemap="#workmap"></li>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+<div class="imgtag">
+    <center>
+          <img src="download.png" width='100%'alt="Workplace" usemap="#workmap">
+    <map name="workmap">
+        <area shape="rect" coords="6,20,61,113" alt="Computer" href="computer.htm">
+        <!-- <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm"> -->
+      </map>
+      </center>
+</div>
+<map name="workmap">
+    <area shape="rect" coords="6,20,61,113" alt="Computer" href="computer.htm">
+    <!-- <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm"> -->
+</map>
+    
+
+<!-- <div class="my">
+</div> -->
+<div class='some' id='about'>
+  
+    <center>
+        <img width='200px' hight='180px' src="download2.png" title="Your Level not in range You can't see the picture ">
+        <h1><a href="http://abhishekshukla.herokuapp.com/" title="A man with Codding ">Abhishek shukla</a></h1>
+
+            <pre>
+                <h3>
+                Hi.. This is Abhishek shukla, I'm a developer 
+                I also enjoy in teaching courses in my Free times
+                I build new projects just to tickle my brain and love teaching others how they're made.
+                While I keep busy teaching courses,
+                I still take interviews in search of a great team & projects that interest me.
+                </h3>
+            </pre>
+    </center>
+
+</div>
+  
+<div class="formm" id ="Contact">
+    <hr>
+    <p><h2>Contact Me</h2></p>
+    <form>
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="usa">India</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+    </form>
+</div>
+    
+
+
+</body>
+</html>
